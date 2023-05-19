@@ -6,7 +6,7 @@ export default function Homepage () {
         <div className="homepage">
             <div className="welcome">
               <span>Welcome to Evergreen!</span>
-               
+              
                 
                 
 

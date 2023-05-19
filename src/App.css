@@ -21,13 +21,27 @@
        height: 600px;  
 }
 
-.homepage .welcome {
+.homepage .welcome  {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 56px;
     padding: 220px;
     font-family: 'Amatic SC', cursive;
+    animation: bounce 2s infinite;
 }
 
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.homepage
 
 
 /* about */
