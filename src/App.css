@@ -7,6 +7,8 @@
                 sans-serif;
                 --headings: 'Lato',
                     sans-serif;
+                    --welcome: 'Amatic SC',
+                        cursive;
                 --green-one: #1F5229;
                 --green-two: #F2F7F0;
 }
@@ -25,7 +27,7 @@
     font-weight: 400;
     font-size: 56px;
     padding: 220px;
-    font-family: 'Amatic SC', cursive;
+    font-family: var(--welcome);
     animation: bounce 2s infinite;
     color: var(--green-one);
 }
@@ -57,9 +59,10 @@
         padding: 40px 0;
 }
 .about h3 {
-    font-family: var(--headings);
+    font-family: var(--welcome);
     font-size: 28px;
         margin-bottom: 20px;
+        text-align: left;
 }
 
 .about h4 {
@@ -85,4 +88,22 @@
 
  p {
      margin-bottom: 10px;
+ }
+
+ /* contact section */
+
+ .contact {
+    background-color: var(--green-two);
+    text-align: center;
+    color: var(--green-one)
+
+ }
+
+ .contact h3 {
+    font-family: var(--welcome);
+ }
+
+ .contact p, h4 {
+    opacity: 0.8;
+    font-family: var(--descriptive-font);
  }
