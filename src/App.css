@@ -12,7 +12,21 @@
 }
 
 /* homepage */
+.homepage {
+    background-image: url("./images/new.jpg");
+        background-repeat: no-repeat;
+        background-color: #EEEEEE;
+        background-size: cover;
+        background-position: center;
+       height: 600px;  
+}
 
+.homepage .welcome {
+    font-weight: 400;
+    font-size: 36px;
+    padding: 220px;
+    font-family: 'Amatic SC', cursive;
+}
 
 
 
