@@ -1,0 +1,39 @@
+/* roots */
+
+:root {
+        --descriptive-font: 'Lusitana',
+            serif;
+            --directive-font: 'Ysabeau',
+                sans-serif;
+                --headings: 'Lato',
+                    sans-serif;
+                --green-one: #1F5229;
+                --green-two: #F2F7F0;
+}
+
+/* homepage */
+
+
+
+
+/* about */
+.about {
+    background-color: var(--green-two);
+    font-family: var(--descriptive-font);
+    line-height: 1.5;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: var(--green-one);
+}
+.about h3 {
+    font-family: var(--headings);
+}
+
+.about h4 {
+    text-align: center;
+}
+ .about p {
+    opacity: 0.8;
+    font-weight: 400;
+    text-align: left;
+ }
