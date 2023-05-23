@@ -107,3 +107,16 @@
     opacity: 0.8;
     font-family: var(--descriptive-font);
  }
+
+ .contact .socials {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .contact .socials a {
+     color: var(--green-one);
+     /* Change the font color here */
+     margin-bottom: 10px;
+     /* Adjust the spacing between icons */
+ }

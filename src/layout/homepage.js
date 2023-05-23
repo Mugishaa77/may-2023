@@ -51,7 +51,7 @@ export default function Homepage () {
     <hr/>
     <h4>Let's Talk Green!</h4>
     <p>If you have any questions or would like to get in touch with us, please feel free to reach out:</p>
-    <p className="socials">
+    <div className="socials">
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
@@ -114,7 +114,7 @@ export default function Homepage () {
                   className="whatsapp-icon"
                 />
               </a>
-            </p>
+            </div>
     
    
   </div>
